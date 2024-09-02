@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--Remote-->
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="SonicBSV" fetch="https://github.com/SonicBSV" />
+
+ <!--Trees-->
+ <project path="device/xiaomi/markw" name="android_device_xiaomi_markw-4.9" remote="SonicBSV" revision="lineage-21.0" />
+ <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi-4.9" remote="SonicBSV" revision="lineage-21.0" />
+ <project path="kernel/xiaomi/markw" name="android_kernel_xiaomi_markw-4.9" remote="SonicBSV" revision="master" />
+
+ <!-- Hardware -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
+</manifest>
