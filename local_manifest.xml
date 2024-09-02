@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <!--Remote-->
+ <remote name="LineageOS" fetch="https://github.com/LineageOS" />
+ <remote name="baunilla" fetch="https://github.com/baunilla" />
+
+ <!--Trees-->
+ <project path="device/xiaomi/rosy" name="android_device_xiaomi_rosy" remote="baunilla" revision="lineage-21.0" />
+ <project path="vendor/xiaomi/rosy" name="proprietary_vendor_xiaomi_rosy" remote="baunilla" revision="lineage-21.0" />
+ <project path="kernel/xiaomi/rosy" name="android_kernel_xiaomi_rosy" remote="baunilla" revision="lineage-21.0" />
+
+ <!-- Hardware -->
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
+</manifest>
