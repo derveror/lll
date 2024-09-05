@@ -2,15 +2,14 @@
 <manifest>
  <!--Remote-->
  <remote name="LineageOS" fetch="https://github.com/LineageOS" />
- <remote name="TheMuppets" fetch="https://github.com/TheMuppets" />
- <remote name="crDroid" fetch="https://github.com/crdroidandroid" />
+ <remote name="Luffitys" fetch="https://github.com/Luffitys" />
 
  <!--Trees-->
- <project path="device/xiaomi/polaris" name="android_device_xiaomi_polaris" remote="LineageOS" revision="lineage-21" />
- <project path="device/xiaomi/sdm845-common" name="android_device_xiaomi_sdm845-common" remote="LineageOS" revision="lineage-21" />
- <project path="vendor/xiaomi/polaris" name="proprietary_vendor_xiaomi_polaris" remote="TheMuppets" revision="lineage-21" />
- <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="TheMuppets" revision="lineage-21" />
- <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="crDroid" revision="14.0" />
+ <project path="device/xiaomi/cmi" name="android_device_xiaomi_cmi" remote="Luffitys" revision="lineage-21" />
+ <project path="vendor/xiaomi/cmi" name="android_vendor_xiaomi_cmi" remote="Luffitys" revision="lineage-21" />
+ <project path="device/xiaomi/sm8250-common" name="android_device_xiaomi_sm8250-common" remote="Luffitys" revision="lineage-21" />
+ <project path="vendor/xiaomi/sm8250-common" name="android_vendor_xiaomi_sm8250-common" remote="Luffitys" revision="lineage-21" />
+ <project path="kernel/xiaomi/sm8250" name="android_kernel_xiaomi_sm8250-MagicTime" remote="Luffitys" revision="magictime-new" />
 
  <!-- Hardware -->
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
