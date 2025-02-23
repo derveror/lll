@@ -12,6 +12,4 @@
  <project path="vendor/xiaomi/sdm845-common" name="proprietary_vendor_xiaomi_sdm845-common" remote="TheMuppets" revision="lineage-22.1" />
  <project path="kernel/xiaomi/sdm845" name="android_kernel_xiaomi_sdm845" remote="crDroid" revision="15.0" />
 
- <!-- Hardware -->
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-22.1" />
 </manifest>
