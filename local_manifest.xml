@@ -6,7 +6,6 @@
 
  <!--Trees-->
  <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="aepranata" revision="15" />
- <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="aepranata" revision="15" />
  <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy" remote="aepranata" revision="15" />
 
  <!-- Hardware -->
